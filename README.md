@@ -1,4 +1,4 @@
-#Content:
+# Content:
 
 * Fuzzy C-Means (FCM); Fuzzy J-Means (FJM) and FVNS (VARIABLE NEIGHBORHOOD SEARCH METAHEURISTICS FOR FCM and FJM)
 * Various cluster validity indices:
