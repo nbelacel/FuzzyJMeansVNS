@@ -58,3 +58,5 @@ If you use our Fjmeans in a scientific publication, we would appreciate using th
   publisher={Oxford University Press}
 }
 ```
+# Acknowledgements
+Thanks to Zhicheng (Max) Xu for his contribution in converting c++ code of FJM to python.
