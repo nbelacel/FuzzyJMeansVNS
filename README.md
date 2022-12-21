@@ -58,5 +58,15 @@ If you use our Fjmeans in a scientific publication, we would appreciate using th
   publisher={Oxford University Press}
 }
 ```
+# Publications
+
+Shakirova, A., Nichman, L., Belacel, N., Nguyen, C., Bliankinshtein, N., Wolde, M., ... & Huang, Y. (2022). Multivariable Characterization of Atmospheric Environment with Data Collected in Flight. Atmosphere, 13(10), 1715.
+
+Belacel, Nabil, Miroslava Čuperlović-Culf, Mark Laflamme, and Rodney Ouellette. "Fuzzy J-Means and VNS methods for clustering genes from microarray data." Bioinformatics 20, no. 11 (2004): 1690-1701.
+
+Belacel, N., Cuperlovic-Culf, M., Ouellette, R., & Boulassel, M. R. (2004, February). The variable neighborhood search metaheuristic for fuzzy clustering cDNA microarray gene expression data. In Proceedings of IASTED-AIA-04 Conference. Innsbruck, Austria.
+
+Belacel, Nabil, Pierre Hansen, and Nenad Mladenovic. "Fuzzy J-means: a new heuristic for fuzzy clustering." Pattern recognition 35.10 (2002): 2193-2200.
+
 # Acknowledgements
 Thanks to Zhicheng (Max) Xu for his contribution in converting c++ code of FJM to python.
