@@ -14,7 +14,7 @@
 
 # Fuzzy J-Means Algorithm
 Fuzzy J-Means (FJM) is python module implementing the clustering methods based on fuzzy j-means heuristic (FJM) and fvns the integration of FJM to variable neighborhood search metaheuristic.
-FJM is a local search heuristic, where moves belong to the neighbourhood of the current solution defined by all possible centroid-to-pattern relocations. This crisp solution found is then transformed into a fuzzy one by an alternate step, i.e., by finding centroids and membership degrees for all patterns and clusters. Like the F-CM method, the F-JM heuristic may be stuck in local minima, possibly of poor value. To alleviate this difficulty, the F-JM heuristic is embedded into the variable neighbourhood search (VNS) metaheuristic.
+FJM is a local search heuristic is inspired from (Hansen and Mladenovic, 2001), where moves belong to the neighbourhood of the current solution defined by all possible centroid-to-pattern relocations (Belacel et al. 2002). This crisp solution found is then transformed into a fuzzy one by an alternate step, i.e., by finding centroids and membership degrees for all patterns and clusters. Like the F-CM method, the F-JM heuristic may be stuck in local minima, possibly of poor value. To alleviate this difficulty, the F-JM heuristic is embedded into the variable neighbourhood search (VNS) metaheuristic.
 ## Prerequisites
 * Python 3.7+
 ## Usage
@@ -64,9 +64,12 @@ Shakirova, A., Nichman, L., Belacel, N., Nguyen, C., Bliankinshtein, N., Wolde, 
 
 Belacel, Nabil, Miroslava Čuperlović-Culf, Mark Laflamme, and Rodney Ouellette. "Fuzzy J-Means and VNS methods for clustering genes from microarray data." Bioinformatics 20, no. 11 (2004): 1690-1701.
 
-Belacel, N., Cuperlovic-Culf, M., Ouellette, R., & Boulassel, M. R. (2004, February). The variable neighborhood search metaheuristic for fuzzy clustering cDNA microarray gene expression data. In Proceedings of IASTED-AIA-04 Conference. Innsbruck, Austria.
+Belacel, N., Hansen P., Mladenovic N. (2002) "Fuzzy J-means: a new heuristic for fuzzy clustering." Pattern recognition 35.10 (2002): 2193-2200.
 
-Belacel, Nabil, Pierre Hansen, and Nenad Mladenovic. "Fuzzy J-means: a new heuristic for fuzzy clustering." Pattern recognition 35.10 (2002): 2193-2200.
+Hansen P., Mladenovic N. (2001) J-Means: a new local search heuristic for minimum sum of squares clustering, Pattern Recognition, Volume 34, Issue 2, Pages 405-413,
 
 # Acknowledgements
+
 Thanks to Zhicheng (Max) Xu for his contribution in converting c++ code of FJM to python.
+
+The FJM algorithm initially was developed during N. Belacel's post-doc in GERAD University of Montreal and under supervision of wounderful Professors Pierre Hansen and Nenad Mladenovic.
