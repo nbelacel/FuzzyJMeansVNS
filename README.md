@@ -47,16 +47,6 @@ If you use our Fjmeans in a scientific publication, we would appreciate using th
   publisher={Elsevier}
 }
 
-@article{belacel2004fuzzy,
-  title={Fuzzy J-Means and VNS methods for clustering genes from microarray data},
-  author={Belacel, Nabil and {\v{C}}uperlovi{\'c}-Culf, Miroslava and Laflamme, Mark and Ouellette, Rodney},
-  journal={Bioinformatics},
-  volume={20},
-  number={11},
-  pages={1690--1701},
-  year={2004},
-  publisher={Oxford University Press}
-}
 ```
 # Publications
 
